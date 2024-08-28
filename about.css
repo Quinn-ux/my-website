@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} 
+
+.about{
+    background: white;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 250px;
+    height: 450px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+
+.content .para{
+    padding: 20px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: small;
+}
+
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    text-decoration: underline; 
+}
+
+.image{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -40%);
+    padding: 25px;
+    color: white;
+}
