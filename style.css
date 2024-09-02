@@ -9,13 +9,17 @@
     background:  linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(The_Light_of_God.png);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    min-height: 109vh;
 } 
 
 .navbar{
-    width: 1200px;
+    width: 100%;
     height: 75px;
+    padding: 0 15px; 
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .icon{
@@ -37,6 +41,7 @@
     width: 400px;
     float: left;
     height: 70px;
+    
 }
 
 ul{
@@ -48,7 +53,7 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 62px;
+    margin-left: 50px;
     margin-top: 27px;
     font-size: 14px;
 }
@@ -165,13 +170,15 @@ ul li a:hover{
 
 .form{
     width: 250px;
-    height: 450px;
+    height: 500px;
     background:  linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: -20px;
+    top: -50px;
     left: 870px;
     border-radius: 10px;
     padding: 25px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 .form h2{
@@ -210,30 +217,26 @@ ul li a:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.btnn{
-    width: 240px;
-    height: 40px;
-    background: lightskyblue;
+.form input[type="submit"]
+{
+    width: 60%;
+    margin-left: 50px;
     border: none;
-    margin-top: 40px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: white;
-    transition: .4s ease;
-}
-
-.btnn:hover{
-    background: white;
-    color: lightskyblue;
-}
-
-.btnn a{
-    text-decoration: none;
+    outline: none;
+    height: 40px;
     color: black;
+    background: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.form input[type="submit"]:hover{
+    cursor: pointer;
+    background: lightskyblue;
+    color: white;
     font-weight: bold;
 }
-
 .form .link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -267,4 +270,4 @@ ul li a:hover{
 
 .icons ion-icon:hover{
     color: lightskyblue;
-}
+} 
