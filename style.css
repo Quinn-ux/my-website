@@ -271,3 +271,17 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: lightskyblue;
 } 
+@media (min-width: 1024px) {
+    .main {
+      grid-template-columns: repeat(4, 1fr);
+      padding: 0; /* Remove padding for larger screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main {
+      grid-template-columns: repeat(2, 1fr); /* Two foods per row on mobile */
+      gap: 10px; /* Ensure consistent spacing on mobile */
+      padding: 0 10px; /* Adjusted padding for mobile */
+    }
+  }
